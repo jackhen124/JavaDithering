@@ -4,17 +4,17 @@ It takes an image as input and outputs the same image using a limited color pall
 
 run it by following these steps:
 
-1) cd to JavaDithering
+1) download project, open command prompt and cd inside of src/
 2) javac App.java
 3) App.java inputImageFileLocation ditheringAlgorithm outputImageFileLocation
 
-Example arguments that will work: App.java birds.png jarvis result 3
+Example arguments that will work: java App.java birds.png jarvis result
 
-you can use "birds.png" as inputImageFileLocation run with one of the example images saved in the project.
+you can use "birds.png" or "dog.png" as inputImageFileLocation to run with one of the example images saved in the project, or you can save another image inside src/images to use that image
 
 ditheringAlgorithm choices are "stucki", "jarvis", and "floydsteinberg"
 
-if no outputImageFileLocation is specified, or if outputImageFileLocation is "result", it will save the result within the project to src\images\result.png
+if outputImageFileLocation is "result", it will save the result within the project to src\images\result.png
 
 there is also a 4th optional argument to change the color pallete. the options are:
 4 = blue, green, red, violet, yellow, aqua
