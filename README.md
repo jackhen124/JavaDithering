@@ -4,13 +4,13 @@ It takes an image as input and outputs the same image using a limited color pall
 
 run it by following these steps:
 
-1) cd to JavaDithering/src
+1) cd to JavaDithering
 2) javac App.java
 3) App.java inputImageFileLocation ditheringAlgorithm outputImageFileLocation
 
 Example arguments that will work: App.java birds.png jarvis result 3
 
-you can use "birds.png" or "dog.png" as inputImageFileLocation run with one of the example images saved in the project.
+you can use "birds.png" as inputImageFileLocation run with one of the example images saved in the project.
 
 ditheringAlgorithm choices are "stucki", "jarvis", and "floydsteinberg"
 
