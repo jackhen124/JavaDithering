@@ -10,7 +10,7 @@ run it by following these steps:
 
 Example arguments that will work: java App.java birds.png jarvis result
 
-you can use "birds.png" or "dog.png" as inputImageFileLocation to run with one of the example images saved in the project, or you can save another image inside src/images to use that image
+you can use "birds.png" or "dog.png" as inputImageFileLocation to run with one of the example images saved in the project, or you can save another image inside src/images/ to use that image
 
 ditheringAlgorithm choices are "stucki", "jarvis", and "floydsteinberg"
 
