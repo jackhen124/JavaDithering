@@ -4,7 +4,7 @@ It takes an image as input and outputs the same image using a limited color pall
 
 run it by following these steps:
 
-1) download project, open command prompt and cd inside of src/
+1) download and extract project, open command prompt and cd inside of src/
 2) javac App.java
 3) java App.java inputImageFileLocation ditheringAlgorithm outputImageFileLocation
 
